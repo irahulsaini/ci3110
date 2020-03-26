@@ -1,0 +1,62 @@
+/*!
+ * Bootstrap v4.3.1 (https://getbootstrap.com/)
+ * Copyright 2011-2019 The Bootstrap Authors
+ * Copyright 2011-2019 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+
+@import "css/scss/functions";
+@import "css/scss/variables";
+@import "css/scss/mixins";
+$colors: map-remove($colors,
+    "blue",
+    "indigo",
+    "purple",
+    "pink",
+    "red",
+    "orange",
+    "yellow",
+    "green",
+    "teal",
+    "cyan"
+    );
+$theme-colors: map-remove($theme-colors,
+	"warning",
+	"info"
+);
+@import "css/scss/root";
+@import "css/scss/reboot";
+@import "css/scss/type";
+@import "css/scss/images";
+@import "css/scss/code";
+@import "css/scss/grid";
+@import "css/scss/tables";
+@import "css/scss/forms";
+@import "css/scss/buttons";
+@import "css/scss/transitions";
+@import "css/scss/dropdown";
+@import "css/scss/button-group";
+@import "css/scss/input-group";
+@import "css/scss/custom-forms";
+@import "css/scss/nav";
+@import "css/scss/navbar";
+@import "css/scss/card";
+@import "css/scss/breadcrumb";
+@import "css/scss/pagination";
+@import "css/scss/badge";
+@import "css/scss/jumbotron";
+@import "css/scss/alert";
+@import "css/scss/callout";
+@import "css/scss/progress";
+@import "css/scss/media";
+@import "css/scss/list-group";
+@import "css/scss/close";
+@import "css/scss/toasts";
+@import "css/scss/modal";
+@import "css/scss/tooltip";
+@import "css/scss/popover";
+@import "css/scss/carousel";
+@import "css/scss/spinners";
+@import "css/scss/utilities";
+@import "css/scss/print";
